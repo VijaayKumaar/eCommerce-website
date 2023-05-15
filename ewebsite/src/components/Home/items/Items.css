@@ -1,0 +1,119 @@
+.single-product {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.single-product .card {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+  max-width: 900px;
+}
+
+.single-product .card .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.single-product .card .image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 400px;
+}
+
+.single-product .card .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  width: 60%;
+}
+
+.single-product .card .details h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.single-product .card .details p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.single-product .card .details .price {
+  color: green;
+  font-weight: bold;
+  Margin-left:10px;
+
+}
+
+.single-product .card .details .button {
+  display: inline-block;
+  background-color: #f00;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.single-product .card .details .button:hover {
+  background-color: #fff;
+  color: #f00;
+  border: 1px solid #f00;
+}
+
+.rating {
+
+  
+  gap: 1rem;
+  font-size: 1.8rem;
+}
+
+.ProductImage {
+  width: 70%;
+
+  height: 50%;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+/* .ProductImage:hover {
+  transform: scale(1.1);
+} */
+
+.MyImage{
+  width: 60%;
+  /* height: 200px; */
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+
+}
+
+.MyImage:hover {
+    transform: scale(1.1)
+}
+hr{
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
